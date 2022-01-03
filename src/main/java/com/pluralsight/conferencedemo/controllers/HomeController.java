@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
+    
     @Value("${app.version}")
     private String appVersion;
 

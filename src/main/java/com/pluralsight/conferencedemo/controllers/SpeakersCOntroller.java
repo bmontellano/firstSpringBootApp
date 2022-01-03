@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1/speakers")
-public class SpeakersCOntroller {
+public class SpeakersController {
     
     @Autowired
     private SpeakerRepository speakerRepository;

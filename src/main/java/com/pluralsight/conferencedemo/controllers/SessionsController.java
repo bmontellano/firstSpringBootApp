@@ -36,8 +36,7 @@ public class SessionsController {
     }
 
     @PostMapping
-    //Give a more detailed Response
-    //usually, the response for this endpoint is 200
+    //Give a more detailed Response with annotation below
      //@ResponseStatus(HttpStatus.CREATED)
     public Session create(@RequestBody final Session session) {
       return sessionRepository.saveAndFlush(session);
